@@ -1,0 +1,640 @@
+// 1
+class Livro {
+    private String titulo;
+    private String autor;
+    private int numeroDePaginas;
+
+    public Livro(String titulo, String autor, int numeroDePaginas) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.numeroDePaginas = numeroDePaginas;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public int getNumeroDePaginas() {
+        return numeroDePaginas;
+    }
+
+    public void setNumeroDePaginas(int numeroDePaginas) {
+        this.numeroDePaginas = numeroDePaginas;
+    }
+
+    public void abrir() {
+        System.out.println("Abrindo o livro " + titulo + "...");
+    }
+
+    public void lerPagina(int pagina) {
+        if (pagina > 0 && pagina <= numeroDePaginas) {
+            System.out.println("Lendo página " + pagina + " do livro " + titulo + "...");
+        } else {
+            System.out.println("Número de página inválido.");
+        }
+    }
+}
+
+// 2
+class Celular {
+    private String marca;
+    private String modelo;
+    private int capacidadeBateria;
+
+    public Celular(String marca, String modelo, int capacidadeBateria) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.capacidadeBateria = capacidadeBateria;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public int getCapacidadeBateria() {
+        return capacidadeBateria;
+    }
+
+    public void setCapacidadeBateria(int capacidadeBateria) {
+        this.capacidadeBateria = capacidadeBateria;
+    }
+
+    public void ligar() {
+        System.out.println("Ligando o celular " + marca + " " + modelo + "...");
+    }
+
+    public void desligar() {
+        System.out.println("Desligando o celular " + marca + " " + modelo + "...");
+    }
+}
+
+// 3
+class Pessoa {
+    private String nome;
+    private int idade;
+    private double altura;
+
+    public Pessoa(String nome, int idade, double altura) {
+        this.nome = nome;
+        this.idade = idade;
+        this.altura = altura;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura// 1
+class Livro {
+    private String titulo;
+    private String autor;
+    private int numeroDePaginas;
+
+    public Livro(String titulo, String autor, int numeroDePaginas) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.numeroDePaginas = numeroDePaginas;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public int getNumeroDePaginas() {
+        return numeroDePaginas;
+    }
+
+    public void setNumeroDePaginas(int numeroDePaginas) {
+        this.numeroDePaginas = numeroDePaginas;
+    }
+
+    public void abrir() {
+        System.out.println("Abrindo o livro " + titulo + "...");
+    }
+
+    public void lerPagina(int pagina) {
+        if (pagina > 0 && pagina <= numeroDePaginas) {
+            System.out.println("Lendo página " + pagina + " do livro " + titulo + "...");
+        } else {
+            System.out.println("Número de página inválido.");
+        }
+    }
+}
+
+// 2
+class Celular {
+    private String marca;
+    private String modelo;
+    private int capacidadeBateria;
+
+    public Celular(String marca, String modelo, int capacidadeBateria) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.capacidadeBateria = capacidadeBateria;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public int getCapacidadeBateria() {
+        return capacidadeBateria;
+    }
+
+    public void setCapacidadeBateria(int capacidadeBateria) {
+        this.capacidadeBateria = capacidadeBateria;
+    }
+
+    public void ligar() {
+        System.out.println("Ligando o celular " + marca + " " + modelo + "...");
+    }
+
+    public void desligar() {
+        System.out.println("Desligando o celular " + marca + " " + modelo + "...");
+    }
+}
+
+// 3
+class Pessoa {
+    private String nome;
+    private int idade;
+    private double altura;
+
+    public Pessoa(String nome, int idade, double altura) {
+        this.nome = nome;
+        this.idade = idade;
+        this.altura = altura;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public void apresentar() {
+        System.out.println("Olá, meu nome é " + nome + ", tenho " + idade + " anos e " + altura + " metros de altura.");
+    }
+}
+
+// 4
+class ContaBancaria {
+    private String numeroConta;
+    private double saldo;
+
+    public ContaBancaria(String numeroConta, double saldo) {
+        this.numeroConta = numeroConta;
+        this.saldo = saldo;
+    }
+
+    public String getNumeroConta() {
+        return numeroConta;
+    }
+
+    public void setNumeroConta(String numeroConta) {
+        this.numeroConta = numeroConta;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public void depositar(double valor) {
+        saldo += valor;
+        System.out.println("Depósito de R$" + valor + " realizado. Novo saldo: R$" + saldo);
+    }
+
+    public void sacar(double valor) {
+        if (valor <= saldo) {
+            saldo -= valor;
+            System.out.println("Saque de R$" + valor + " realizado. Novo saldo: R$" + saldo);
+        } else {
+            System.out.println("Saldo insuficiente para saque.");
+        }
+    }
+}
+
+// 5
+class Cachorro {
+    private String nome;
+    private String raca;
+    private int idade;
+
+    public Cachorro(String nome, String raca, int idade) {
+        this.nome = nome;
+        this.raca = raca;
+        this.idade = idade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getRaca() {
+        return raca;
+    }
+
+    public void setRaca(String raca) {
+        this.raca = raca;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void latir() {
+        System.out.println(nome + " está latindo!");
+    }
+
+    public void correr() {
+        System.out.println(nome + " está correndo!");
+    }
+}
+
+// 6
+class Computador {
+    private String processador;
+    private int memoriaRAM;
+    private int armazenamento;
+
+    public Computador(String processador, int memoriaRAM, int armazenamento) {
+        this.processador = processador;
+        this.memoriaRAM = memoriaRAM;
+        this.armazenamento = armazenamento;
+    }
+
+    public String getProcessador() {
+        return processador;
+    }
+
+    public void setProcessador(String processador) {
+        this.processador = processador;
+    }
+
+    public int getMemoriaRAM() {
+        return memoriaRAM;
+    }
+
+    public void setMemoriaRAM(int memoriaRAM) {
+        this.memoriaRAM = memoriaRAM;
+    }
+
+    public int getArmazenamento() {
+        return armazenamento;
+    }
+
+    public void setArmazenamento(int armazenamento) {
+        this.armazenamento = armazenamento;
+    }
+
+    public void ligar() {
+        System.out.println("Ligando o computador com processador " + processador + "...");
+    }
+
+    public void desligar() {
+        System.out.println("Desligando o computador com processador " + processador + "...");
+    }
+}
+
+// 7
+class Aluno {
+    private String nome;
+    private String matricula;
+    private String curso;
+    private double[] notas;
+
+    public Aluno(String nome, String matricula, String curso, double[] notas) {
+        this.nome = nome;
+        this.matricula = matricula;
+        this.curso = curso;
+        this.notas = notas;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public void setCurso(String curso) {
+        this.curso = curso;
+    }
+
+    public double[] getNotas() {
+        return notas;
+    }
+
+    public void setNotas(double[] notas) {
+        this.notas = notas;
+    }
+
+    public double calcularMedia() {
+        double soma = 0;
+        for (double nota : notas) {
+            soma += nota;
+        }
+        return soma / notas.length;
+    }
+}
+
+// 8
+class Professor {
+    private String nome;
+    private String disciplina;
+    private double salario;
+
+    public Professor(String nome, String disciplina, double salario) {
+        this.nome = nome;
+        this.disciplina = disciplina;
+        this.salario = salario;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getDisciplina() {
+        return disciplina;
+    }
+
+    public void setDisciplina(String disciplina) {
+        this.disciplina = disciplina;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public void darAula() {
+        System.out.println("Professor " + nome + " está dando aula de " + disciplina + ".");
+    }
+
+    public void corrigirProva() {
+        System.out.println("Professor " + nome + " está corrigindo provas.");
+    }
+}
+
+// 9
+class Produto {
+    private String nome;
+    private double preco;
+    private int quantidadeEstoque;
+
+    public Produto(String nome, double preco, int quantidadeEstoque) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidadeEstoque = quantidadeEstoque;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public int getQuantidadeEstoque() {
+        return quantidadeEstoque;
+    }
+
+    public void setQuantidadeEstoque(int quantidadeEstoque) {
+        this.quantidadeEstoque = quantidadeEstoque;
+    }
+
+    public void aumentarEstoque(int quantidade) {
+        quantidadeEstoque += quantidade;
+        System.out.println("Estoque aumentado. Quantidade atual: " + quantidadeEstoque);
+    }
+
+    public void diminuirEstoque(int quantidade) {
+        if (quantidade <= quantidadeEstoque) {
+            quantidadeEstoque -= quantidade;
+            System.out.println("Estoque diminuído. Quantidade atual: " + quantidadeEstoque);
+        } else {
+            System.out.println("Quantidade insuficiente no estoque.");
+        }
+    }
+}
+
+// 10
+class Veiculo {
+    private String tipo;
+    private String placa;
+    private String cor;
+
+    public Veiculo(String tipo, String placa, String cor) {
+        this.tipo = tipo;
+        this.placa = placa;
+        this.cor = cor;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    public void abastecer() {
+        System.out.println("Abastecendo o veículo " + tipo + " de placa " + placa + "...");
+    }
+
+    public void lavar() {
+        System.out.println("Lavando o veículo " + tipo + " de placa " + placa + "...");
+    }
+}
+
+// 11
+class Cidade {
+    private String nome;
+    private int populacao;
+    private String estado;
+
+    public Cidade(String nome, int populacao, String estado) {
+        this.nome = nome;
+        this.populacao = populacao;
+        this.estado = estado;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getPopulacao() {
+        return populacao;
+    }
+
+    public void setPopulacao(int populacao) {
+        this.populacao = populacao;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public void aumentarPopulacao(int quantidade) {
+        populacao += quantidade;
+        System.out.println("População aumentada. População atual: " + populacao);
+    }
+
+    public void diminuirPopulacao(int quantidade) {
+        if (quantidade <= populacao) {
+            populacao -= quantidade;
+            System.out.println("População diminuída. População atual: " + populacao);
+        } else {
+            System.out.println("Não é possível reduzir a população em mais do que o total atual.");
+        }
+    }
+}
+
